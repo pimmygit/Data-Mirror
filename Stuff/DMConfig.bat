@@ -1,0 +1,1 @@
+"%JAVAHOME%/java" -DDMGHOME="%DMGHOME%" -Djava.library.path="%DMGHOME%libs" -cp "%DMGHOME%libs/DMGUtility.jar" gui.Configurator %1 %2

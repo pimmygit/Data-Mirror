@@ -1,0 +1,33 @@
+######################################################################
+#
+# October 2005 - File Back Up Utility
+# Author: Kliment Stefanov
+# 
+# Data Mirror Utility properties file - dmgutil.prp
+#
+######################################################################
+
+
+######################################################################
+#
+# Datamirror Utility runtime properties
+#
+######################################################################
+# Datamirror Utility Home directory
+# DMG_HOME = C:/Program Files/Data Mirror/
+#
+# Logging Level.			Values: DEBUG, MINOR, MAJOR, CRITICAL.
+# --------------				  Default: CRITICAL
+# messagelevel = CRITICAL
+#
+# Log Output.			Values: STDOUT, <FILENAME>. 
+# -----------				  Default: dmgutil.log
+# messagelog = dmgutil.log
+#
+######################################################################
+
+######################################################################
+# 
+# Put your settings below this section
+#
+######################################################################
