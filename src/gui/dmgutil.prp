@@ -1,0 +1,37 @@
+######################################################################
+#
+# October 2005 - File Back Up Utility
+# Author: Kliment Stefanov
+# 
+# Back Up Utility properties file - bkputil.prp
+#
+######################################################################
+
+
+######################################################################
+#
+# Datamirror Utility runtime properties
+#
+######################################################################
+# Datamirror Utility Home directory
+# DMG_HOME = C:\\Program Files\\DMGUtility\\
+#
+# Logging Level. Values - DEBUG, MINOR, MAJOR, CRITICAL.
+#                         Default: CRITICAL
+# messagelevel = CRITICAL
+#
+# Log Output. Values:	STDOUT     - prints the log to the screen, 
+#			            <FILENAME> - prints the log to a specified file.
+# 
+# messagelog = dmgutil.log         - Default: dmgutil.log
+#
+######################################################################
+
+######################################################################
+# 
+# Put your settings below this section
+#
+######################################################################
+DMG_HOME = D:\\Sandbox\\DMGUtility\\BUILD\\
+messagelevel = DEBUG
+messagelog = STDOUT

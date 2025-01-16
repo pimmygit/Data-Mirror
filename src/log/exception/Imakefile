@@ -1,0 +1,13 @@
+JAR = jar
+JAROPTIONS = cvf
+JAVAC = javac $(JAVACOPTIONS) -d ../../../classes/core
+
+SRCS = 	AlreadyInUseHandleException.java \
+	NonExistantHandleException.java
+
+      
+default:: 
+	$(JAVAC) $(SRCS)
+	
+clean::
+	rm -f *.class
